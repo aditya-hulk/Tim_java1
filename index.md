@@ -15,3 +15,6 @@
 # 13. Configuring installation and intro to Jshell
 # ***Section-3:First Step***
 # 14. Hello World
+# 15 Variables
+# 16. Starting out with Expression
+# 17. Primitive Types

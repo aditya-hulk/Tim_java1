@@ -116,5 +116,101 @@ https://www.youtube.com/watch?v=VHAXJxcHA1k&list=PLXtTjtWmQhg1YRG0L0dIT5B22Utuja
 ### ctr + c se bahar and /exit se pura bahar
 # ***Section-3:First Step***
 # 14. Hello World
+emulates   
+- to try to do something as well as, or better than, somebody  
+- किसी के बराबर होने या उससे आगे बढ़ने की चेष्‍टा करना
+
+nuances 
+  - a very small difference in meaning, feeling, sound, etc.  
+ - अर्थ, मनोभाव, ध्वनि आदि में सूक्ष्‍म अंतर
+ ### Print Hello World! using Jshell
+ ![Alt text](image-33.png)
+ System.out.println("Hello World!"); is a ***Statement*** in java.
+ ### What is statement?
+ It's a complete command to be executed. It can include one or more expressions. 
+ ![Alt text](image-34.png)
+ ### Don't forget that Java is write once run anywhere, and that little java pgm you just write can be executed on any device that runs java.
+ ### Remember that in JShell, you can see the history of the lines you've previously typed, using the up and down arrows.
+### Next, I'll remove the closing parentheses, to see what JShell does:
+![Alt text](image-35.png)
+OK, so what does this somewhat weird-looking new prompt mean?   
+Well, JShell is assuming we haven't finished typing in all of the code (since we haven't closed the parentheses set),  
+so it waits for us to type something in. I can now go ahead and add the closing  
+parentheses here on this line, and the semi-colon (completing the statement), then press enter:
+![Alt text](image-36.png)
+![Alt text](image-39.png)
+### Remember that the key combination 'control c', on windows, or 'control d' on a mac or a linux machine, should cancel what you are in the middle of, and get you back to the JShell prompt.
+### Typing forward slash and the word 'exit', or forward slash with the shortcut text ex, will end your JShell session, if you get stuck.
+### An example would be /exit or /ex.
+![Alt text](image-41.png)
+# 15 Variables
+![Alt text](image-42.png)
+https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-3.9
+![Alt text](image-43.png)
+### The highlighted keyword are primitive data type.
+![Alt text](image-44.png)
+![Alt text](image-45.png)
+### Now a variable, as the name suggests, can be changed – in  other words, its contents are variable.
+ ### So what we have to do, is tell the computer what type of information we want to store in the variable, and then give the variable a name.
+ ![Alt text](image-46.png)
+ ![Alt text](image-47.png)
+ ### So here, we've defined our first variable – by specifying a data type of int, and giving the variable the name of myFirstNumber.
+ ##  = is an assignment operator
+ ## ; tells the java this line/statement is complete.
+ ![Alt text](image-48.png)
+ omitted 
+  - to leave out or leave unmentioned
+### If you're initializing a variable in the declaration statement, what you type to the right of the equals sign,is assigned as the value of the variable. This is known – the part of the statement that follows the equals sign – as an expression in Java.
+![Alt text](image-49.png)
+### Also the java is taking care to store this number 5 in memory location and aap usko access kar sakte ho apke declare name i.e myFirstNumber se.
+in essence 
+ - basically and without regard for peripheral details; fundamentally.
+
+essence 
+  - the basic or most important quality of something
+![Alt text](image-50.png)
+![Alt text](image-51.png)
+![Alt text](image-52.png)
+### aapne abhi declaration statement mein variable ki value initialize ki hai.. aap value baad mein bhi initialize kar sakte.
+### Change variable value from 5 to 10
+![Alt text](image-54.png)
+### Jiase aapne declare kiye myFirstNumber ye variable name hai, uske andar aap int type ka data rakh sakte ho ... abhi uski value 5 hai.. kal aap 10 se bhi change kar sakte ho.. that's variable
+![Alt text](image-53.png)
+![Alt text](image-55.png)
+### ab tak aapne joh bhi command type kiye jshell par aap usse /list karke dekh sakte
+![Alt text](image-56.png)
+### Jshell aur java compiler mein diff kya hia.. 
+#### App redeclare kar sakte ho variable ko jshell mein but java compiler error marta.
+![Alt text](image-57.png)
+### Note that we can assign a value to a variable multiple times in Java, but it’s the declaration (which includes the data type) that cannot normally be done a second time for the same variable.
+![Alt text](image-59.png)
+#### Yaha + , * ye operator hai
+![Alt text](image-60.png)
+# 16. Starting out with Expression
+![Alt text](image-61.png)
+![Alt text](image-62.png)
+review 
+ - उस पर पुनर्विचार
+ ![Alt text](image-63.png)
+ ![Alt text](image-64.png)
+ ### aapne kitne variable ab tak jshell mein banaye hai- iske liye /var
+ ![Alt text](image-65.png)
+ ### aap variable ko expression mein use kar sakte aur kisi naye variable ko assign bhi kar sakte.
+ ![Alt text](image-66.png)
+ ![Alt text](image-67.png)
+ ![Alt text](image-68.png)
+![Alt text](image-70.png)
+![Alt text](image-71.png)
+![Alt text](image-72.png)
+# 17. Primitive Types
+
+
+
+
+
+
+
+
+
 
 
