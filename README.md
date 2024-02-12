@@ -203,6 +203,167 @@ review
 ![Alt text](image-71.png)
 ![Alt text](image-72.png)
 # 17. Primitive Types
+![Alt text](image-73.png)
+![Alt text](image-74.png)
+![Alt text](image-75.png)
+![Alt text](image-76.png)
+![Alt text](image-77.png)
+![Alt text](image-78.png)
+![Alt text](image-79.png)
+![Alt text](image-80.png)
+![Alt text](image-81.png)
+![Alt text](image-82.png)
+![Alt text](image-83.png)
+![Alt text](image-84.png)
+bust 
+ - to break or damage something so that it cannot be used
+
+![Alt text](image-85.png)
+![Alt text](image-86.png)
+![Alt text](image-87.png)
+### If we assigning a literal number that's outside of the valid range for a variable, will throw an error.
+aapne 2147483647 ye joh integer ki max range hia usme +1 add karke  
+ int variable ko allot kiya i.e 2147483648   
+ so we get error
+![Alt text](image-88.png)
+![Alt text](image-89.png)
+![Alt text](image-90.png)
+![Alt text](image-91.png)
+![Alt text](image-92.png)
+# 18. byte, short, long and width
+![Alt text](image-93.png)
+![Alt text](image-94.png)
+![Alt text](image-95.png)
+![Alt text](image-96.png)
+![Alt text](image-99.png)
+![Alt text](image-98.png)
+![Alt text](image-97.png)
+![Alt text](image-100.png)
+### long myLongValue = 100;
+By default int datatype ke range mien hai ye.. to make it long add suffix l or L at end.
+
+![Alt text](image-101.png)
+Long datatype has a width of 64
+![Alt text](image-102.png)
+![Alt text](image-103.png)
+![Alt text](image-104.png)
+#### waise long value ko aapko L suffix lagana chaiye but aap yadi nhi lagate..So java by default consider 100 as int and long mein int aasani se fit hota.So  yaha error nhi aavenga. 
+#### But yadi aap badi value jo int range ke bahar hai uspar bina suffix L lagaye likhenge so compiler will give error.
+![Alt text](image-105.png)
+![Alt text](image-106.png)
+### aap int ke range ki value yadi short datatype mein baithonge simply compiler error marenga.
+![Alt text](image-107.png)
+# 19. Casting in Java.
+![Alt text](image-108.png)
+### Aap ek line mein multiple datatype define kar sakte, basharte semicolon ho
+![Alt text](image-109.png)
+### Aap 2 variable single statement mein declare kar sakte, Barsharte single datatype jo start mein ho and separated by comma(,)
+![Alt text](image-110.png)
+![Alt text](image-112.png)
+![Alt text](image-111.png)
+### Let's break the rule & see what happen
+### 1. rule
+![Alt text](image-113.png)
+### 2nd rule
+![Alt text](image-114.png)
+### Let's do some Math
+![Alt text](image-115.png)
+Yaha java compiler confuse ho gya ki ye expression evaluate ho payenga kya.  
+#### Yadi aap number specify karte literal ka to compiler evalate kar leta.
+![Alt text](image-116.png)
+### Remember Java by default expression division ko int consider karta karke ye error aaya; I.e default whole number use by java is int.
+![Alt text](image-117.png)
+### So solution is casting  
+![Alt text](image-118.png)
+![Alt text](image-119.png)
+#### so hum yaha java ko bol rahe aap default consideration int ko choodo and yaha specific is expression ko byte treat karke evaluate karo.
+![Alt text](image-120.png)
+![Alt text](image-121.png)
+![Alt text](image-122.png)
+![Alt text](image-123.png)
+### Remember  casting badi value ko chote datatype me jab fit karna hota hia tab use hoti hai. 
+### Humne dekha hai ki int ki max value long mein aasani se fit ho gyi without any casting.
+# 20. Primitive type challange
+![Alt text](image-124.png)
+### 1st way
+![Alt text](image-125.png)
+### 2nd way
+![Alt text](image-126.png)
+![Alt text](image-127.png)
+### Remember that 'L' is optional if the value is less than the integer maximum value. 
+### Also notice how we didn't need to do any casting.    This is because the right side produced a long, because we used a long literal in the first part of the equation, so in this instance, the result is a long.
+![Alt text](image-128.png)
+#### Why error?
+We require short but we found an int. So here Casting is required.
+ ![Alt text](image-129.png)
+# 21. Float and Double Primitive
+![Alt text](image-130.png)
+![Alt text](image-131.png)
+### When we talk about floating point numbers, we talk about both the width and the precision of the type.
+![Alt text](image-132.png)
+![Alt text](image-133.png)
+### 10 to the power -1 = 0.1 & 10 to the power of -5 = 0.00001
+![Alt text](image-134.png)
+![Alt text](image-135.png)
+![Alt text](image-136.png)
+outweigh
+ - to be more in amount or importance than something
+ ### We can assign integer literal to float and double, nothing to worry about suffix.
+ ![Alt text](image-137.png)
+ ### yaha assign integer literal mein proper suffix lagane par bhi same result.
+ ![Alt text](image-138.png)
+ ### Ab 5.25 ye assing karke dekho
+ ![Alt text](image-139.png)
+### Yaha floating number mein default datatype Double hai. isiliye upar ka error aa raha hia..U need to provide proper suffix.
+![Alt text](image-140.png)
+### Remember: the format of the cast is the name of the data type you want to convert to.
+![Alt text](image-141.png)
+innocous 
+ -  harmless
+ ![Alt text](image-142.png)
+ # 22. Floating Point Precision and a challenge.
+ ![Alt text](image-143.png)
+ ![Alt text](image-144.png)
+ ![Alt text](image-145.png)
+ #### In below eg, you divide (myIntValue = 5 /2) so java compile the result is in int dataformat so ignore fraction part. Which was not in the case of flaot and double things.
+ ![Alt text](image-146.png)
+ ### Float mein 7 decimal aaya  & double mein 16 decimal place. Actually output memory itna store hua hai..That's why we take double.
+ ![Alt text](image-147.png)
+ ### Remembering that Java will automatically look at a decimal number, and assume it's a double.
+ ![Alt text](image-148.png)
+ ### So, as long as one of the operands is a double, your result will be a double.
+ ![Alt text](image-149.png)
+ ### Remember this won't work with float variable
+ Float is a single precision number and double provides dobule precision.
+ ![Alt text](image-150.png)
+ ![Alt text](image-151.png)
+arbitrary 
+ - not seeming to be based on any reason or plan and sometimes seeming unfair
+ - बिना तर्क, नियम या योजना पर आधारित और कभी-कभी अनुचित; मनमाना, स्‍वेच्‍छाचारी  
+
+consistency
+  - the quality of always behaving or performing in a similar way, or of always happening in a similar way
+  ![Alt text](image-153.png)
+  ### Yaha caluclation ke waqt suffix mein d lagana jaruri nhi tha.. kyuki by default double hi consider honga.. but we do it for consistency.
+  https://www.google.com/search?q=200+pounds+in+kg&rlz=1C1PRFI_enPH986PH986&oq=200+pounds+in+kg&aqs=chrome..69i57j0i22i30l9.1482j0j7&sourceid=chrome&ie=UTF-8
+  ### aap aisa bhi dekh sakte ho- sab valid hai ie underscore in double
+  ![Alt text](image-154.png)
+  ![Alt text](image-155.png)
+  # 23 The char and  boolean primitive datatype
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
