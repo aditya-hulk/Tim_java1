@@ -350,7 +350,46 @@ consistency
   ![Alt text](image-154.png)
   ![Alt text](image-155.png)
   # 23 The char and  boolean primitive datatype
-   
+![Alt text](image-156.png)  
+Here, we've put the letter D in single quotes.  
+That could be any single character,  
+  ***for example,***   
+   - a letter, 
+   - a digit,   
+- or any other character like an exclamation mark, a hash, a dollar sign, and so on.
+
+![Alt text](image-157.png)
+![Alt text](image-158.png)
+![Alt text](image-159.png)  
+### too many character; java expect kar raha tha single character followed by single quote yaha multiple aa gye so error.
+![Alt text](image-160.png)
+#### Early 90's mein jab java introduce hua tab memory ka bada mahatva tha, abhi utna load nhi.. tab char bada mayne rakhta tha.
+![Alt text](image-161.png)
+![Alt text](image-162.png)
+### Unicode allows us to  represent multiple languages. like Japanese,chinese etc
+https://symbl.cc/en/unicode/table/
+![Alt text](image-163.png)
+![Alt text](image-164.png)
+![Alt text](image-165.png)
+### Challenge
+![Alt text](image-166.png)
+![Alt text](image-168.png)
+![Alt text](image-169.png)
+![Alt text](image-170.png)
+![Alt text](image-171.png)
+### Practical Usage
+![Alt text](image-172.png)
+Is the customer over 21? In our case yes.  
+intuitive
+ - having the ability to know or understand things without any proof or evidence :  
+
+intuition
+  - the feeling or understanding that makes you believe or know that something is true without being able to explain why  
+- मनोभाव या बुद्धि जो बिना तर्क किए किसी बात को सही माने; अंतःप्रज्ञा, सहजबुद्धि, अंतर्ज्ञान
+![Alt text](image-173.png)
+![Alt text](image-174.png)
+# 24 Primitive type recap and the String Datatype.
+
 
 
 

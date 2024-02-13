@@ -24,3 +24,5 @@
 ## 21. Float and Double Primitive
  ## 22. Floating Point Precision and a challenge.
  ## 23 The char and  boolean primitive datatype
+ ## 24 Primitive type recap and the String Datatype.
+ 
