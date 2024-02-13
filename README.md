@@ -389,6 +389,38 @@ intuition
 ![Alt text](image-173.png)
 ![Alt text](image-174.png)
 # 24 Primitive type recap and the String Datatype.
+![Alt text](image-175.png)
+reiterate 
+-  बार बार दुहराना
+
+![Alt text](image-176.png)
+### As we go through the course further,you'll find thatthere's a way to create your own data types, which in Java are called classes.
+![Alt text](image-177.png)
+![Alt text](image-178.png)
+![Alt text](image-179.png)
+![Alt text](image-180.png)
+### By Using + operator, We can output a String literal with String varaible.
+![Alt text](image-181.png)
+### We can assign expression to String variable
+![Alt text](image-182.png)
+Here + follow concatenation operation.
+### Unicode character with String
+![Alt text](image-183.png)
+![Alt text](image-184.png)
+![Alt text](image-185.png)
+![Alt text](image-186.png)
+![Alt text](image-187.png)
+![Alt text](image-188.png)
+![Alt text](image-189.png)
+![Alt text](image-190.png)
+###  Java provides another class that is more efficient if you are doing a lot of appending of multiple strings or values.
+![Alt text](image-191.png)
+intrinsic 
+- आंतरिक
+- internal
+![Alt text](image-192.png)
+# 25. Operators, Operands & Expressions.
+
 
 
 
